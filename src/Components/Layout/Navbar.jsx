@@ -34,18 +34,12 @@ function logoutSystem() {
 
 
   return (
-    <Navbar  className="bg-gray-100">
+    <Navbar  className="bg-gray-100 flex justify-center">
       <NavbarBrand>
-        <h1>< IoMdCodeWorking size={30} className="m-2"/> </h1>
-
-        <p className="font-bold text-sky-900 text-3xl">  LinkedPost </p>
-        <h1>< IoMdCodeWorking size={30} className="m-2" /> </h1>
+        <h1>< IoMdCodeWorking size={30} className="m-2  sm:flex" /> </h1>
+        <p className="font-bold text-sky-900 text-15 sm:text-3xl">  LinkedPost </p>
+        <h1>< IoMdCodeWorking size={30} className="m-2  sm:flex" /> </h1>
       </NavbarBrand>
-
-      <NavbarContent className="hidden sm:flex " justify="end">
-
-  
-      </NavbarContent>
 
       <NavbarContent as="div" justify="end">
               <NavbarItem>
