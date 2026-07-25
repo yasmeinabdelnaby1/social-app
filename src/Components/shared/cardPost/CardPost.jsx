@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderCard from '../headerCard/headerCard'
+import HeaderCard from '../headerCard/HeaderCard'
 import Comments from '../coments/Comments'
 import { Link } from 'react-router-dom'
 import CommentsDetails from '../../commentsDetails/CommentsDetails'
